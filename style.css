@@ -286,6 +286,11 @@ section#first-text {
     margin:15px 320px 15px 0;
     padding:15px;
 }
+.carrers {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+}
 
 .carrers h1{
     color: #03d;
@@ -300,10 +305,10 @@ section#first-text {
 }
 
 .careers-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 25px;
-    max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
     margin: 0 auto;
     padding:40px 0 100px 0;
 }
